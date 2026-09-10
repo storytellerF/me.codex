@@ -1,11 +1,9 @@
 ---
 name: test-report-sharing
-description: Collect test reports, then share the static report site through ngrok.
+description: Use when collecting, previewing, or sharing JUnit XML, Gradle or Maven reports, HTML test output, or end-to-end test artifacts. Assemble a static report site and return either a local preview URL or an ngrok public URL.
 ---
 
 # Test Report Sharing
-
-Use this skill when you need to collect test reports and generate a shareable report site exposed via ngrok.
 
 ## Required Behavior
 
@@ -27,13 +25,6 @@ plugins/test-report-sharing/scripts/generate-report-site.sh
 
 # Start ngrok tunnel
 plugins/test-report-sharing/scripts/start-ngrok.sh
-```
-
-Or run the full workflow via the agent:
-
-```bash
-# The agent coordinates all steps automatically
-# It will return the public URL and summary
 ```
 
 ## Configuration
