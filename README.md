@@ -10,13 +10,13 @@ repository.
 Add this repository as a Codex plugin marketplace:
 
 ```bash
-codex plugin marketplace add .
+codex plugin marketplace add https://github.com/storytellerF/me.codex.git
 ```
 
 Install the plugins you need from the `me` marketplace. For example:
 
 ```bash
-codex plugin add android-profile@me
+codex plugin add android-emulator-profile@me
 codex plugin add general-coding-practices@me
 codex plugin add diff-sharing@me
 ```
