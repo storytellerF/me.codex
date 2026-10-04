@@ -1,6 +1,6 @@
 {
   "name": "test-report-sharing",
-  "version": "0.4.0-20260910024855",
+  "version": "0.4.1-20261004053826",
   "description": "Collect test reports into a static site for local preview or ngrok sharing.",
   "author": {
     "name": "Test Report Sharing"
