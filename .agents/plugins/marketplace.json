@@ -2,10 +2,10 @@
   "name": "me",
   "plugins": [
     {
-      "name": "android-appium-device-lock",
+      "name": "android-device-lock",
       "source": {
         "source": "local",
-        "path": "./plugins/android-appium-device-lock"
+        "path": "./plugins/android-device-lock"
       },
       "policy": {
         "installation": "AVAILABLE",
