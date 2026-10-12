@@ -1,6 +1,6 @@
 {
   "name": "diff-sharing",
-  "version": "0.2.2-20261004053826",
+  "version": "0.2.3-20261011061758",
   "description": "Generate Git or Difftastic code-diff sites for local preview or ngrok sharing.",
   "author": {
     "name": "Diff Sharing"
