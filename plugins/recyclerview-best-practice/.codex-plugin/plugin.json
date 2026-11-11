@@ -1,7 +1,7 @@
 {
   "name": "recyclerview-best-practice",
-  "version": "0.3.4-20261030120429",
-  "description": "Android RecyclerView guidance for adapters, diffing, paging, state, prepend anchors, and performance.",
+  "version": "0.3.5-20261107120055",
+  "description": "Android RecyclerView \u7684 adapter\u3001\u5dee\u5f02\u8ba1\u7b97\u3001\u5206\u9875\u3001\u72b6\u6001\u3001\u524d\u63d2\u951a\u70b9\u548c\u6027\u80fd\u6307\u5f15\u3002",
   "author": {
     "name": "Local Android Practices"
   },
@@ -16,9 +16,9 @@
   ],
   "skills": "./skills/",
   "interface": {
-    "displayName": "RecyclerView Best Practice",
-    "shortDescription": "Review and implement robust Android RecyclerView code.",
-    "longDescription": "Guides Codex to prefer diff-capable adapters, correct lifecycle collection, stable binding patterns, item state separation, and focused tests when editing Android RecyclerView code.",
+    "displayName": "RecyclerView \u6700\u4f73\u5b9e\u8df5",
+    "shortDescription": "\u5ba1\u67e5\u548c\u5b9e\u73b0\u7a33\u5065\u7684 Android RecyclerView \u4ee3\u7801\u3002",
+    "longDescription": "\u6307\u5bfc Codex \u7f16\u8f91 Android RecyclerView \u4ee3\u7801\u65f6\uff0c\u4f18\u5148\u91c7\u7528\u652f\u6301\u5dee\u5f02\u8ba1\u7b97\u7684 adapter\u3001\u6b63\u786e\u7684\u751f\u547d\u5468\u671f\u6536\u96c6\u3001\u7a33\u5b9a\u7ed1\u5b9a\u6a21\u5f0f\u3001\u6761\u76ee\u72b6\u6001\u5206\u79bb\u53ca\u805a\u7126\u6d4b\u8bd5\u3002",
     "developerName": "Local Android Practices",
     "category": "Developer Tools",
     "capabilities": [
@@ -27,9 +27,9 @@
       "Android"
     ],
     "defaultPrompt": [
-      "Review this RecyclerView implementation.",
-      "Refactor this adapter to use diffing.",
-      "Add Paging 3 support to this list."
+      "\u5ba1\u67e5\u6b64 RecyclerView \u5b9e\u73b0\u3002",
+      "\u5c06\u6b64 adapter \u91cd\u6784\u4e3a\u5dee\u5f02\u8ba1\u7b97\u66f4\u65b0\u3002",
+      "\u4e3a\u6b64\u5217\u8868\u6dfb\u52a0 Paging 3 \u652f\u6301\u3002"
     ],
     "brandColor": "#2E7D32"
   }
