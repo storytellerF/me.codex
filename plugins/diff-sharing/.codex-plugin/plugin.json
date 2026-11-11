@@ -1,6 +1,6 @@
 {
   "name": "diff-sharing",
-  "version": "0.2.8-20261107120055",
+  "version": "0.2.9-20261111062540",
   "description": "\u751f\u6210 Git \u6216 Difftastic \u4ee3\u7801\u5dee\u5f02\u7ad9\u70b9\uff0c\u7528\u4e8e\u672c\u5730\u9884\u89c8\u6216 ngrok \u5206\u4eab\u3002",
   "author": {
     "name": "Diff Sharing"
