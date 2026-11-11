@@ -1,7 +1,7 @@
 {
   "name": "test-report-sharing",
-  "version": "0.4.6-20261030120429",
-  "description": "Collect test reports into a static site for local preview or ngrok sharing.",
+  "version": "0.4.7-20261107120055",
+  "description": "\u5c06\u6d4b\u8bd5\u62a5\u544a\u6536\u96c6\u4e3a\u9759\u6001\u7ad9\u70b9\uff0c\u7528\u4e8e\u672c\u5730\u9884\u89c8\u6216 ngrok \u5206\u4eab\u3002",
   "author": {
     "name": "Test Report Sharing"
   },
@@ -13,9 +13,9 @@
   ],
   "skills": "./skills/",
   "interface": {
-    "displayName": "Test Report Sharing",
-    "shortDescription": "Preview existing test reports locally or share a public URL.",
-    "longDescription": "Collects existing test reports into a browsable static site. The skill uses local previews unless public sharing is requested; report collection does not rerun tests.",
+    "displayName": "\u6d4b\u8bd5\u62a5\u544a\u5206\u4eab",
+    "shortDescription": "\u672c\u5730\u9884\u89c8\u5df2\u6709\u6d4b\u8bd5\u62a5\u544a\uff0c\u6216\u5206\u4eab\u516c\u5f00 URL\u3002",
+    "longDescription": "\u5c06\u5df2\u6709\u6d4b\u8bd5\u62a5\u544a\u6536\u96c6\u4e3a\u53ef\u6d4f\u89c8\u9759\u6001\u7ad9\u70b9\u3002\u9664\u975e\u8981\u6c42\u516c\u5f00\u5206\u4eab\uff0c\u5426\u5219 skill \u4f7f\u7528\u672c\u5730\u9884\u89c8\uff1b\u6536\u96c6\u62a5\u544a\u4e0d\u4f1a\u91cd\u65b0\u8fd0\u884c\u6d4b\u8bd5\u3002",
     "developerName": "Test Report Sharing",
     "category": "Developer Tools",
     "capabilities": [
@@ -23,8 +23,8 @@
       "Ngrok Tunnel"
     ],
     "defaultPrompt": [
-      "Collect existing test reports and show a local preview.",
-      "Share the existing test reports through a public URL."
+      "\u6536\u96c6\u5df2\u6709\u6d4b\u8bd5\u62a5\u544a\u5e76\u663e\u793a\u672c\u5730\u9884\u89c8\u3002",
+      "\u901a\u8fc7\u516c\u5f00 URL \u5206\u4eab\u5df2\u6709\u6d4b\u8bd5\u62a5\u544a\u3002"
     ],
     "brandColor": "#2563EB"
   }

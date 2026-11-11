@@ -1,7 +1,7 @@
 {
   "name": "android-emulator-profile",
-  "version": "0.5.3-20261030120429",
-  "description": "Prepare Android emulators for runs and tests, with profile-based SDK/AVD setup and read-only status previews.",
+  "version": "0.5.4-20261107120055",
+  "description": "\u4e3a Android \u8fd0\u884c\u548c\u6d4b\u8bd5\u51c6\u5907\u6a21\u62df\u5668\uff0c\u63d0\u4f9b\u57fa\u4e8e\u914d\u7f6e\u6587\u4ef6\u7684 SDK\u3001AVD \u51c6\u5907\u53ca\u53ea\u8bfb\u72b6\u6001\u9884\u89c8\u3002",
   "author": {
     "name": "Android Emulator Profile Maintainers",
     "email": "fake@example.com",
@@ -19,9 +19,9 @@
   ],
   "skills": "./skills/",
   "interface": {
-    "displayName": "Android Emulator Profile",
-    "shortDescription": "Prepare Android emulators for runs and tests; inspect status.",
-    "longDescription": "Reuses suitable emulators or AVDs for Android runs and tests, prepares SDK tools and profiles when needed, and provides read-only status and screen previews. Bundled helpers support profile-based local and Docker-friendly setup.",
+    "displayName": "Android \u6a21\u62df\u5668\u914d\u7f6e",
+    "shortDescription": "\u51c6\u5907 Android \u8fd0\u884c\u548c\u6d4b\u8bd5\u6a21\u62df\u5668\uff0c\u67e5\u770b\u72b6\u6001\u3002",
+    "longDescription": "\u4e3a Android \u8fd0\u884c\u548c\u6d4b\u8bd5\u590d\u7528\u5408\u9002\u7684\u6a21\u62df\u5668\u6216 AVD\uff0c\u6309\u9700\u51c6\u5907 SDK \u5de5\u5177\u53ca\u914d\u7f6e\uff0c\u5e76\u63d0\u4f9b\u53ea\u8bfb\u72b6\u6001\u548c\u5c4f\u5e55\u9884\u89c8\u3002\u968f\u5305\u5de5\u5177\u652f\u6301\u57fa\u4e8e\u914d\u7f6e\u6587\u4ef6\u7684\u672c\u5730\u53ca\u9002\u5408 Docker \u7684\u73af\u5883\u51c6\u5907\u3002",
     "developerName": "Android Emulator Profile Maintainers",
     "category": "Productivity",
     "capabilities": [
@@ -32,9 +32,9 @@
     "privacyPolicyURL": "https://github.com/storytellerF/me",
     "termsOfServiceURL": "https://github.com/storytellerF/me",
     "defaultPrompt": [
-      "Prepare a suitable Android emulator for this project's tests.",
-      "Start the configured Android emulator.",
-      "Show the Android emulator status panel."
+      "\u4e3a\u672c\u9879\u76ee\u6d4b\u8bd5\u51c6\u5907\u5408\u9002\u7684 Android \u6a21\u62df\u5668\u3002",
+      "\u542f\u52a8\u5df2\u914d\u7f6e\u7684 Android \u6a21\u62df\u5668\u3002",
+      "\u663e\u793a Android \u6a21\u62df\u5668\u72b6\u6001\u9762\u677f\u3002"
     ],
     "brandColor": "#3B82F6"
   },

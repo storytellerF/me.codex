@@ -1,7 +1,7 @@
 {
   "name": "android-device-lock",
-  "version": "0.5.2-20261030120429",
-  "description": "Project-independent adb device locking for Android tests across projects and frameworks.",
+  "version": "0.5.3-20261107120055",
+  "description": "\u8de8\u9879\u76ee\u3001\u8de8\u6d4b\u8bd5\u6846\u67b6\u7684 Android adb \u8bbe\u5907\u9501\uff0c\u72ec\u7acb\u4e8e\u76ee\u6807\u9879\u76ee\u8fd0\u884c\u3002",
   "author": {
     "name": "Local Android Practices"
   },
@@ -15,9 +15,9 @@
   ],
   "skills": "./skills/",
   "interface": {
-    "displayName": "Android Device Lock",
-    "shortDescription": "Serialize any Android tests on a shared device.",
-    "longDescription": "Manages shared Android device access independently of the target project. Calls the installed adb lock helper, runs existing test commands unchanged, and releases the lease without copying scripts or adding project or CI integration.",
+    "displayName": "Android \u8bbe\u5907\u9501",
+    "shortDescription": "\u8ba9\u5171\u4eab\u8bbe\u5907\u4e0a\u7684 Android \u6d4b\u8bd5\u4e32\u884c\u6267\u884c\u3002",
+    "longDescription": "\u5728\u76ee\u6807\u9879\u76ee\u4e4b\u5916\u7ba1\u7406\u5171\u4eab Android \u8bbe\u5907\u8bbf\u95ee\u3002\u8c03\u7528\u5df2\u5b89\u88c5\u7684 adb \u9501\u5de5\u5177\uff0c\u4fdd\u6301\u73b0\u6709\u6d4b\u8bd5\u547d\u4ee4\u4e0d\u53d8\u5e76\u91ca\u653e\u79df\u7ea6\uff0c\u65e0\u9700\u590d\u5236\u811a\u672c\u6216\u6dfb\u52a0\u9879\u76ee\u3001CI \u96c6\u6210\u3002",
     "developerName": "Local Android Practices",
     "category": "Developer Tools",
     "capabilities": [
@@ -26,10 +26,10 @@
       "Android"
     ],
     "defaultPrompt": [
-      "Run this existing Android device test command under the plugin-managed device lock without changing the project.",
-      "Serialize these Android device tests so one device only runs one suite at a time.",
-      "Use adb to wait for an existing device lock before starting tests.",
-      "Show device lock ownership and lease expiry."
+      "\u5728\u63d2\u4ef6\u7ba1\u7406\u7684\u8bbe\u5907\u9501\u4e0b\u8fd0\u884c\u6b64\u73b0\u6709 Android \u6d4b\u8bd5\u547d\u4ee4\uff0c\u4e0d\u4fee\u6539\u9879\u76ee\u3002",
+      "\u5c06\u8fd9\u4e9b Android \u8bbe\u5907\u6d4b\u8bd5\u4e32\u884c\u6267\u884c\uff0c\u8ba9\u4e00\u53f0\u8bbe\u5907\u6bcf\u6b21\u53ea\u8fd0\u884c\u4e00\u5957\u6d4b\u8bd5\u3002",
+      "\u6d4b\u8bd5\u524d\u901a\u8fc7 adb \u7b49\u5f85\u5df2\u6709\u8bbe\u5907\u9501\u91ca\u653e\u3002",
+      "\u663e\u793a\u8bbe\u5907\u9501\u5f52\u5c5e\u548c\u79df\u7ea6\u5230\u671f\u65f6\u95f4\u3002"
     ],
     "brandColor": "#0F766E"
   },

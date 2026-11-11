@@ -1,7 +1,7 @@
 {
   "name": "client-ui-best-practices",
-  "version": "0.3.4-20261030120429",
-  "description": "Cross-platform Host architecture for client UI state, effects, lifecycle, and thread confinement.",
+  "version": "0.3.5-20261107120055",
+  "description": "\u901a\u8fc7\u8de8\u5e73\u53f0 Host \u67b6\u6784\u7ba1\u7406\u5ba2\u6237\u7aef UI \u72b6\u6001\u3001\u526f\u4f5c\u7528\u3001\u751f\u547d\u5468\u671f\u548c\u7ebf\u7a0b\u7ea6\u675f\u3002",
   "author": {
     "name": "Local developer"
   },
@@ -17,9 +17,9 @@
   ],
   "skills": "./skills/",
   "interface": {
-    "displayName": "Client UI Best Practices",
-    "shortDescription": "Keep rendering responsive and state-driven.",
-    "longDescription": "Guides client development so UI-thread work stays focused on view updates and rendering, while business logic and I/O run asynchronously and update screens through observable UI state and one-time effects.",
+    "displayName": "\u5ba2\u6237\u7aef UI \u6700\u4f73\u5b9e\u8df5",
+    "shortDescription": "\u4fdd\u6301\u754c\u9762\u54cd\u5e94\u6d41\u7545\uff0c\u4ee5\u72b6\u6001\u9a71\u52a8\u6e32\u67d3\u3002",
+    "longDescription": "\u6307\u5bfc\u5ba2\u6237\u7aef\u5f00\u53d1\uff0c\u8ba9 UI \u7ebf\u7a0b\u805a\u7126\u89c6\u56fe\u66f4\u65b0\u548c\u6e32\u67d3\uff0c\u4e1a\u52a1\u903b\u8f91\u4e0e I/O \u5f02\u6b65\u6267\u884c\uff0c\u901a\u8fc7\u53ef\u89c2\u5bdf UI \u72b6\u6001\u548c\u4e00\u6b21\u6027\u526f\u4f5c\u7528\u66f4\u65b0\u9875\u9762\u3002",
     "developerName": "Local developer",
     "category": "Developer Tools",
     "capabilities": [
@@ -28,9 +28,9 @@
       "Debugging"
     ],
     "defaultPrompt": [
-      "Review this client screen for main-thread violations.",
-      "Refactor this UI flow to StateFlow-driven rendering.",
-      "Move business work off the UI thread safely."
+      "\u68c0\u67e5\u6b64\u5ba2\u6237\u7aef\u9875\u9762\u662f\u5426\u8fdd\u53cd\u4e3b\u7ebf\u7a0b\u7ea6\u675f\u3002",
+      "\u5c06\u6b64 UI \u6d41\u7a0b\u91cd\u6784\u4e3a StateFlow \u9a71\u52a8\u7684\u6e32\u67d3\u3002",
+      "\u5b89\u5168\u5730\u5c06\u4e1a\u52a1\u5de5\u4f5c\u79fb\u51fa UI \u7ebf\u7a0b\u3002"
     ],
     "brandColor": "#0F766E"
   }
